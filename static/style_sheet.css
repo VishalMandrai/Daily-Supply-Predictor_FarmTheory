@@ -1,0 +1,132 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: Arial, Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background: #c6ebc9;
+}
+
+/* Website Title */
+.container{
+    padding: 18px;
+	position: relative;
+	background: linear-gradient(0.25turn, #394241, #454941, #000000);
+	background-size: 500% 500%;
+	animation: change-gradient 5s ease-in-out infinite;
+}
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.container-heading{
+    margin: 0;
+    color: #ffffff;
+    font-style:normal;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.description p{
+	color: #ffffff;
+    font-style: initial;
+    font-size: 25px;
+    margin: -10px 0 0;
+}
+
+.description1 p{
+	color: #000000;
+    font-style: initial;
+    font-size: 25px;
+    margin: -10px 0 0;
+}
+
+/* Text Area */
+.ml-container{
+    margin: 30px 0;
+	flex: 1 0 auto;
+}
+
+.form-input {
+	text-align: center;
+	width: 500px;
+	height: 25px;
+	font-style: normal;
+    font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+/* Predict Button */
+.my-cta-button{
+	background: #ffffff;
+   	border: 2px solid #000000;
+    border-radius: 1000px;
+    box-shadow: 5px 5px #686363;
+	margin-top: 20px;
+    padding: 10px 40px;
+    color: #000000;
+    display: inline-block;
+   	font: italic bold 20px/1 "Calibri", sans-serif;
+    text-align: center;
+}
+
+.my-cta-button:hover{
+    color: #5a575e;
+    border: 2px solid #000000;
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+
+/* Contact */
+.contact-icon{
+	color: #ffffff;
+	padding: 7px;
+}
+
+.contact-icon:hover{
+	color: #8c8c8c;
+}
+
+/* Footer */
+.footer{
+	flex-shrink: 0;
+	position: relative;
+	padding: 20px;
+	background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+	background-size: 500% 500%;
+	animation: change-gradient 20s ease-in-out infinite;
+}
+
+.footer-description{
+	color: #ffffff;
+	margin: 0;
+	font-size: 18px;
+}
+
+/* Font for "Customer ID" button */
+.customer_id{
+    color: #000000;
+    font-family:unset; 
+    font-style:normal;
+	font-size: 28px;
+	font-weight:bolder;
+}

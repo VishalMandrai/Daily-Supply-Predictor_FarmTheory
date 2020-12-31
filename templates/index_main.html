@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Daily Supply Predictor</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='farm-icon.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_sheet.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span style="font-family: Tahoma,Geneva, sans-serif;">FARMTHEORY's Daily Supply Predictor</span></h2><br>
+            <div class='description'>
+    			<p style="font-family: Tahoma,Geneva, sans-serif;">A Machine Learning Based Daily Suppy Predicting Web App, Built with Flask</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    	<form action="{{ url_for('predict') }}" method="POST">
+        <br><br>
+        <input class="form-input" type="text" name="Customer_ID" placeholder="Customer ID Eg: 209792000000152461" required="required" /><br>
+        <input class="form-input" type="text" name="Weekday" placeholder="Weekday ['Sunday : 0 , 'Monday' : 1 ... 'Saturday' : 6]" required="required" /><br>
+        <br>
+		<input type="submit" class="my-cta-button" value="Predict">
+        </form>
+        </div>
+        
+        <!-- Customer ID Check -->
+        <div>
+        <form action="{{ url_for('check_customer_id') }}" method="POST">
+        <input type="submit" class="my-cta-button" value="Check Customer ID"><br>
+        </form>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="NONE"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="NONE"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made with ❤️ by Vishal Mandrai</p>
+       </div>
+
+    </body>
+</html>
