@@ -12,14 +12,14 @@ body{
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	background: #c6ebc9;
+	background: #edffea;
 }
 
 /* Website Title */
 .container{
     padding: 18px;
 	position: relative;
-	background: linear-gradient(0.25turn, #394241, #454941, #000000);
+	background: linear-gradient(0.25turn, #557571, #557571, #3f3f44);
 	background-size: 500% 500%;
 	animation: change-gradient 5s ease-in-out infinite;
 }
@@ -71,6 +71,7 @@ body{
     font-size: 18px;
 	margin-bottom: 5px;
 	font-weight: 500;
+	border-radius: 5px;
 }
 
 /* Predict Button */
@@ -89,7 +90,7 @@ body{
 
 .my-cta-button:hover{
     color: #5a575e;
-    border: 2px solid #000000;
+    border: 5px solid #000000;
 }
 
 .my-cta-button:active{
@@ -110,8 +111,8 @@ body{
 .footer{
 	flex-shrink: 0;
 	position: relative;
-	padding: 20px;
-	background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+	padding: 8px;
+	background: linear-gradient(to left, #000, #000 50%, #eee 75%, #333 75%);
 	background-size: 500% 500%;
 	animation: change-gradient 20s ease-in-out infinite;
 }
@@ -119,7 +120,7 @@ body{
 .footer-description{
 	color: #ffffff;
 	margin: 0;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 /* Font for "Customer ID" button */
