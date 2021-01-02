@@ -37,5 +37,4 @@ This application was developed for a Bangalore based startup - ‘FARMTHEORY’.
 <p> <b> Please do ⭐ the repository, if you like the work! </b> </p>
 <p> <b> Thank You! 😊 </b> </p>
 <br>
-<br>
 <p> <b> Note: Don't copy/clone the solution please! </b> </p>
