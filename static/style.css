@@ -90,7 +90,7 @@ body{
 
 .my-cta-button:hover{
     color: #5a575e;
-    border: 5px solid #000000;
+    border: 3px solid #000000;
 }
 
 .my-cta-button:active{
@@ -111,7 +111,7 @@ body{
 .footer{
 	flex-shrink: 0;
 	position: relative;
-	padding: 8px;
+	padding: 15px;
 	background: linear-gradient(to left, #000, #000 50%, #eee 75%, #333 75%);
 	background-size: 500% 500%;
 	animation: change-gradient 20s ease-in-out infinite;
@@ -120,7 +120,7 @@ body{
 .footer-description{
 	color: #ffffff;
 	margin: 0;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /* Font for "Customer ID" button */
